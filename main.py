@@ -6,8 +6,9 @@ import sklearn
 
 df = pd.read_csv('./Jamboree_file.csv')
 
-st.title('Addmission prediction model')
+st.title('Addmission Prediction Model')
 
+st.caption("CHECK IF YOU ARE ELIGIBLE FOR ADDMISSION OR NOT!")
 st.subheader("Sample Dataframe for references")
 st.dataframe(df.iloc[:,:-1]) 
 
